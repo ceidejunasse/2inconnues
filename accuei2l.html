@@ -2,32 +2,47 @@
 <head>
 <title>AIDE POUR RESOURDRE 2 DIFFERENTES FORMES D'EQUATIONS</title>
 </head>		
-<body bgcolor="yellow">
+<body bgcolor=pink>
 	<script src="fonctions.js"></script>
-<IMG src="uy1.png">
+<!-- <IMG src="Christ.jpg" width=100 height=100> -->
 <form>
-		<FONT size=10><blink><marquee>WELCOME TO EVRYBODY</marquee></blink></FONT><BR>
-	<B><I><FONT color=red><U>introduction:</U></FONT><I></B><BR>
-		Salut tout le monde ; je vous remerci pour la bienveillance attention que vous nous pretez.<BR>
-		Ceci n'est qu'un test avec github mais bon dans un contexte mathematique pour resourdre des equation a 2 inconnues <BR>
-	~~<FONT color=blue>equation a  2 inconnues x et y</FONT><BR>
-	~~<FONT color=blue>equation de degre inferieur ou egaLe a  2 dans l'ensemble des nombres complexes</FONT><BR>
-	<B><FONT color=red><U>I)equation a  2 inconnues x et y:</U></FONT></B><BR>
-	Pour la resolution de ce type d'equations le code passe par determinant.Et le systeme est costitue de 2 equations de la forme:<BR>
-	<FONT color=blue>
-		<input type="texte" id="a">x+<input type="texte" id="b">y=<input type="texte" id="c">
+		<font size=8><marquee>WELCOME TO EVRYBODY</marquee></FONT><br>
+	<centrer><b><i><font color=red><U>Objectif:</u></font><i></b><br></centrer>
+		  Salut tout le monde ; je vous remerci pour la bienveillance attention que vous nous pretez.<br>
+		Ceci n'est qu'un test sur github; mais bon dans un contexte mathematique pour resourdre des equations <br>
+		Ici a,b,c,d,e et f ainsi que o,p,q,r,s et t  seront des nombres reels.<br><br>
+	~~<font color=blue>I) Equation a  2 inconnues x et y</font><br>
+	~~<font color=blue>II) Equation de degre inferieur ou egaLe a  2 dans l'ensemble des nombres complexes</font><br><br>
+
+
+	<B><font color=red size=5><center><U>I)equation a  2 inconnues x et y:</U></center></font></B><BR>
+	Pour la resolution de ce type d'equations le code passe par determinant.Un systeme est costitue comme dit  de la forme:<BR>
+	<font color=blue>
+		<input type="texte" id="o"placeholder="o" size=1>x+<input type="texte" id="p" placeholder="p" size=1>y=<input type="texte" id="q" placeholder="q" size=1>
 		<BR><br>
-		<input type="texte" id="d">x+<input type="texte" id="e">y=<input type="texte" id="f">
-	</FONT><BR><br>
+		<input type="texte" id="r" placeholder="r" size=1>x+<input type="texte" id="s" placeholder="s" size=1>y=<input type="texte" id="t" placeholder="t" size=1>
+		</font><BR><br>
 	
 	<input type="button" value="Solution" onclick="inconnues2()"/>
-	={(<input type="texte" id="x">,<input type="texte" id="y">)}<br><br>
-	<!--Cliquez Ici <input type="button" value="Solution" onclick="inconnues2()"/> pour afficher la solution-->
+	={(<input type="texte" id="x" size=1>,<input type="texte" id="y" size=1>)}<br><br>
 
-
-	
-	<BR>
-	<!--A href="2-inconnues.html">suivant></A--><BR>
+	<br><br>
+	<center><B><font color=red size=5><U>II)Equation de second degre dans l'ensemble des nombres complexes:</U></font></b></center><br>
+		
+			Pour ce types d'equation la methode de resolution n'est pas tres narative.<br>Donc nous allons juste vous presantez les solutions de vaux equations.
+			l'equation sera de la forme:<BR>
+			~~<font color=blue><h4>
+				(<input type="text" id="a" placeholder="a" size="1">+i(<input type="text" id="b" placeholder="b" size=1>))x²+
+				(<input type="text" id="c" placeholder="c" size=1>+i(<input type="text" id="d" placeholder="d" size=1>))x+
+				(<input type="text" id="e" placeholder="e" size=1>+i(<input type="text" id="f" placeholder="f" size=1>))=0
+			</h4></font><BR>
+			Avec<font color=red>(a,b,c,d,e,f)</font> des reels et <font color=red>i</font> un parametre telque <font color=red>i²=-1</font><BR>
+			Pour acceder a  notre page de resolution cliqez  sur : suivant--><BR>
+			=<h4>
+				<input type="button" value="Solution" onclick="degre2()"/>
+				{<input type="texte" id="x1" size=1>+i(<input type="texte" id="y1" size=1>) ; 
+				<input type="texte" id="x2" size=1>+i(<input type="texte" id="y2" size=1>)}
+			</h4>
 	
 </form>
 </body>
