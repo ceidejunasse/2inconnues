@@ -59,7 +59,7 @@ function degre2()
 		}
 	}
 	
-	if(a!=0||b!=0||c!=0||d!=0)
+	if(a!=0||b!=0||c!=0||d!=0) // Cas ou l'equation peut etre de degre 1 ou 2
 	{
 		D1=c*c-d*d-4*a*e+4*b*f; // partie reel du Discriminent
 		D2=2*c*d-4*a*f-4*e*b; // partie imaginaire Discriminent
