@@ -1,3 +1,7 @@
+// DE Ceide ...!
+
+
+
 function inconnues2()
 {
 	a=document.getElementById("o").value;
