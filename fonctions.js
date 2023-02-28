@@ -57,9 +57,25 @@ function degre2()
 				alert("l'equation n'admet pas de solution: S={}");
 			}
 		}
+		else
+		{
+			Z3=(-e*c-f*d)/(c*c+d*d);  // PArtie REEL de la solution unique 
+			Z4=(e*d-c*f)/(c*c+d*d); // PArtie IMAGINAIRE de la solution unique
+
+			document.getElementById("x1").value = Z3;
+			document.getElementById("y1").value = Z4;
+
+			document.getElementById("x2").value = 0;
+			document.getElementById("y2").value = 0;
+			// document.write("allez.....!");
+			
+
+		}
+		return ;
 	}
+
 	
-	if(a!=0||b!=0||c!=0||d!=0) // Cas ou l'equation peut etre de degre 1 ou 2
+	else // Cas ou l'equation peut etre de degre 1 ou 2
 	{
 		D1=c*c-d*d-4*a*e+4*b*f; // partie reel du Discriminent
 		D2=2*c*d-4*a*f-4*e*b; // partie imaginaire Discriminent
